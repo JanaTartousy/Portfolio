@@ -514,6 +514,23 @@ html {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-md-4-skill {
+    flex: 0 0 30%; /* 3 icons per row */
+    max-width: 30%; /* 3 icons per row */
+    margin: 15px 0; /* Adjust spacing between rows if needed */
+    text-align: center;
+}
+
+.skill-icon {
+    width: 90px; /* Make sure all icons have the same size */
+    margin-bottom: 10px; /* Spacing between icon and title */
+}
   .col-md-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;

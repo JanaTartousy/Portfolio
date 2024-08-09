@@ -85,9 +85,10 @@ A. Basic Styling
 -------------------------------------------*/
 
 body {
-    color: #fff;
+    color: #ffffff;
     background-color: #020312;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Playwrite DE Grund", cursive;
     font-size: 1rem;
     margin: 0;
     padding: 0;
@@ -793,15 +794,13 @@ p {
     font-size: .8125rem !important;
 }
 
-.ts-xs-text-center {
-}
+
 
 /*-------------------------------------------
   -- Title
 -------------------------------------------*/
 
-.ts-title {
-}
+
 
 .ts-title h5 {
     font-weight: normal;
@@ -1199,8 +1198,8 @@ blockquote h6 {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #f26c4f;
-    border-color: #f26c4f;
+    background-color: #d44729;
+    border-color: #d44729;
     box-shadow: none;
 }
 
@@ -1362,8 +1361,6 @@ blockquote h6 {
     border: none;
 }
 
-.ts-card__image {
-}
 
 /*-------------------------------------------
   -- Circle
@@ -1612,6 +1609,8 @@ form.ts-labels-inside-input .form-group label.focused,
 
 .ts-item p {
     transition-delay: .1s;
+    
+    
 }
 
 .ts-item-content {
@@ -1868,7 +1867,7 @@ iframe div {
   -- Progress
 -------------------------------------------*/
 
-.progress {
+/* .progress {
     background-color: transparent;
     border-radius: 0;
     height: 3rem;
@@ -1906,7 +1905,7 @@ iframe div {
 
 .progress .progress-bar, .progress .ts-progress-value {
     transition: 1s ease;
-}
+} */
 
 /*-------------------------------------------
   -- Promo Numbers
@@ -2394,9 +2393,6 @@ E. Template Specific Elements
     width: .75rem;
 }
 
-.ts-time-line__horizontal .ts-time-line__item .ts-box {
-    /*triangle*/
-}
 
 .ts-time-line__horizontal .ts-time-line__item .ts-box:after {
     border-color: #fff transparent transparent transparent;
